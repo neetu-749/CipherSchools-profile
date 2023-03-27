@@ -17,10 +17,10 @@ const Medium = () => {
             </Typography>
             
             <form>
-                <textarea name='' id='' placeholder='Add something about you.' rows={8} cols={140}></textarea>
+                <textarea name='' id='' placeholder='Add something about you.' rows={8} cols={152}></textarea>
                 <Box placeholder='Add something about you.' padding={2} paddingTop={2}></Box>
             </form>
-            <hr width={1050}/>
+            <hr width={1134}/>
 
             <Typography paddingTop={4}>
                 <div style={{display:'flex', paddingBottom: 10, justifyContent: 'space-between'}}>
@@ -29,7 +29,7 @@ const Medium = () => {
                 </div>  
             </Typography>
             <App padding={2}  />
-            <hr width={1050}/>
+            <hr width={1134}/>
 
             <Typography paddingTop={4}>
                 <div style={{display:'flex', paddingBottom: 10, justifyContent: 'space-between'}}>
@@ -40,7 +40,7 @@ const Medium = () => {
 
             <OnTheWeb/>
 
-            <hr width={1050}/>
+            <hr width={1134}/>
             <Typography paddingTop={4}>
                 <div style={{display:'flex', paddingBottom: 10, justifyContent: 'space-between'}}>
                     <div ><b>PROFESSIONAL INFORMATION</b></div>
@@ -49,7 +49,7 @@ const Medium = () => {
             </Typography>
 
             <Information />
-            <hr width={1050}/>
+            <hr width={1134}/>
             <Typography paddingTop={4}>
                 <div style={{display:'flex', paddingBottom: 10, justifyContent: 'space-between'}}>
                     <div ><b>PASSWORD & SECURITY</b></div>

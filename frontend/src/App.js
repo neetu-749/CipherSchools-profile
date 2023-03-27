@@ -13,10 +13,11 @@ function App() {
     <div className="App" style={{background:'#f8f8ff'}}>
       <NavBar />
       <InfoHeader />
-      <div class='parent'>
-        <div class='child'><Profile /></div>
-        <div class='childd'><SideBar /></div>
-      </div>
+      {/* <div class='parent'> */}
+        <div class='child' style={{width:'80%', marginLeft: '5rem' }}><Profile /></div>
+        <div class='childd' style={{width:'90%'}}><SideBar /></div>
+      {/* </div> */}
+      
     </div>
   );
 }
