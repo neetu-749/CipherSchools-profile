@@ -38,16 +38,32 @@
 }
 
 .parent {
-  margin: 1rem;
-  padding: 1rem 1rem;
+  /* margin: 1rem; */
+  /* padding: 1rem 1rem; */
   text-align: center;
-  display: contents;
+  /* display: contents; */
+  justify-content: center;
+  gap: 2px;
+  margin-right: 0;
+  padding-right: 0;
 
 }
 .child {
   display: inline-block;
+  /* position: fixed; */
   padding: 1rem 1rem;
+  /* position:left; */
   vertical-align: top;
-  width: 5;
+  width: 20;
+  margin: 0;
 }
-
+.childd {
+  display: inline-block;
+  /* position: fixed; */
+  padding: 1rem 1rem;
+  /* position:left; */
+  align-self: right;
+  vertical-align: top;
+  width: 200;
+  margin: 0;
+}

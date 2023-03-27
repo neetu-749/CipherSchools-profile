@@ -15,7 +15,7 @@ function App() {
       <InfoHeader />
       <div class='parent'>
         <div class='child'><Profile /></div>
-        <div class='child'><SideBar /></div>
+        <div class='childd'><SideBar /></div>
       </div>
     </div>
   );
