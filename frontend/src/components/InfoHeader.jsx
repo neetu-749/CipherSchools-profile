@@ -1,7 +1,7 @@
 import { Box, Typography, styled } from '@mui/material';
 
 const Container = styled(Box)(( {theme})=> ({
-    background: 'rgb(235 227 227 / 87%)',
+    background: '#e5e4e2',
     // display: 'flex',
     // color: '#FFFFFF',
     // alignItems: 'center',
@@ -22,31 +22,29 @@ const Image = styled('img')({
 })
 
 const Text= styled(Typography)`
-     font-size: 14px;
-     font-weight: 300;
-     margin-left: 50px;
+     font-size: 18px;
+     line-height: 1.25;
+     font-weight: 400;
+     margin-left: 0;
+`
+
+const TextName= styled(Typography)`
+     font-size: 22px;
+     line-height: 1.75;
+     margin: 0;
+
 `
 
 
 const InfoHeader = () => {
-    
-    const appleStore = 'https://th.bing.com/th/id/OIP.V0lOa_0dCA2k2dvZHSZeNwAAAA?w=184&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7';
-    
 
     return(
-        <Container position="static">
-            <Text>
-                Hello,
-            </Text>
-            <Typography>
-                name
-            </Typography>
-            <Text>
-                email
-            </Text>
-            <Box style={{display:'flex', marginLeft:'auto'}}>
-                <Image src={appleStore} alt="appleStore"/>
-            </Box>
+        <Container position="static" marginLeft={8}>
+            <div style={{ marginLeft: "1.5rem", marginRight: "70rem" }}>
+                <Text style={{ marginLeft: "1.5rem", marginRight: "70rem", paddingTop: "0.5rem" }}>Hello,</Text>
+                <TextName style={{ marginLeft: "1.5rem", marginRight: "70rem" }}><b>Neetu</b></TextName>
+                <Text style={{ marginLeft: "1.5rem", marginRight: "70rem" }}>chaudharyneetu749@gmail.com</Text>
+            </div>
         </Container>
     )
 }
