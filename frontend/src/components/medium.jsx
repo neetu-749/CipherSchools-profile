@@ -8,7 +8,7 @@ import App from './Heatmap';
 
 const Medium = () => {
     return (
-        <div >
+        <div  >
             <Typography padding={0}>
                 <div style={{display:'flex', paddingBottom: 10, justifyContent: 'space-between'}}>
                     <div ><b>ABOUT ME </b></div>

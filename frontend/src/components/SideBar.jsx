@@ -17,12 +17,12 @@ const SideBar = () => {
     { title: "Liked Videos", img: <ThumbUpIcon />, selected: "white" },
   ];
   return (
-    <div style={{ backgroundColor: "white", marginTop: "1rem", height: "73vh", width: "13%" }}>
+    <div style={{ backgroundColor: "white", marginTop: "0rem", height: "110%", width: "100%" }}>
       {sideBarElement.map((ele) => {
         return (
-          <div className="rightSideBarEle" style={{ backgroundColor: ele.selected }}>
-            <div style={{ display: "flex", alignItems: "center" }}>{ele.img}</div>
-            <div style={{ display: "flex", alignItems: "center" }}>{ele.title}</div>
+          <div className="rightSideBarEle" style={{ width:'100%',backgroundColor: ele.selected ,marginLeft:'0%'}}>
+            <div style={{ width:'100%',display: "flex", alignItems: "center" ,marginLeft:'5%'}}>{ele.img}</div>
+            <div style={{width:'100%', display: "flex", alignItems: "center" ,marginLeft:'2%'}}>{ele.title}</div>
           </div>
         );
       })}
