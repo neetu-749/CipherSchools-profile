@@ -45,7 +45,7 @@ const Medium = () => {
                 <div style={{display:'flex', paddingBottom: 10, justifyContent: 'space-between'}}>
                     <div ><b>PROFESSIONAL INFORMATION</b></div>
                     <div><Button variant="contained" style={{color:'#ffffff', background:'#f3912e', font:13, height: 28, width: 80 }}>Edit</Button></div>
-                </div>  
+                </div>
             </Typography>
 
             <Information />
